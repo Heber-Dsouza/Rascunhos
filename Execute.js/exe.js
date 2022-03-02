@@ -18,4 +18,8 @@ let copy = (body) => {
     console.log(`O nome da pessoa é ${novaPessoa.nome} e suas comidas preferidas são ${novaPessoa.comidaFav[0]}, ${novaPessoa.comidaFav[1]} e ${novaPessoa.comidaFav[2]}. Sua melhor amiga se chama ${novaPessoa.melhorAmigo.nome} tem ${novaPessoa.melhorAmigo.idade} anos.\n`) 
 }
 
-console.log(copy(pessoa));
+
+
+copy(pessoa)
+
+//conferir na aula de hj
