@@ -1,9 +1,9 @@
-let frutas = ['bamama', 'maça', 'morango', 'uva']
-
-const onlyM = frutas.filter((item, index) =>{
-    if(item.includes("m")) {
-        return true
+let teste = ()=>{
+    let i
+    for(let c = 0; c <10; c = c+ 2){
+        i=+c
     }
-})
+    return i
+}
 
-console.log(onlyM);
+console.log(teste());

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+            background-color: #f2d0e0;
+            display: flex;
+            width: 20%;
+
+        }
+
+            .botao-nav {
+                width: 100vw;
+                margin: 5px 0px;
+            }
+            
+                .icone-e-texto {
+                display: flex;
+                width: 100%;
+                margin: 15px 0;
+                align-items: flex-end;
+                flex-wrap: wrap;
+                }
+
+                    img {
+                        width: 6%;
+                        margin: 0 20px;
+
+                    }
+
+                    p {
+                        flex-grow: 1;
+                        font-size: 1vw;
+                    }
